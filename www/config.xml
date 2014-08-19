@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "Lambin (com.sunpharma.onco.Lambin1)"
+        version   = "1.0.0">
+
+    <name>Lambin</name>
+    <description>Lambin</description>
+	
+	<icon src="images/Lambin-Icon.png" gap:platform="ios" width="144" height="144" />
+    
+    <preference name="orientation" value="landscape" />
+
+    <gap:splash src="images/landing-bg.png" width="1024" height="768"/>
+	
+	 <preference name="fullscreen" value="true" />
+	 <preference name="webviewbounce" value="false" />
+	 <preference name="show-splash-screen-spinner" value="false" />
+     
+</widget>
